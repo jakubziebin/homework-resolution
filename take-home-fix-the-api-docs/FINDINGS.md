@@ -49,3 +49,4 @@ I also went through the mock_server.py to take a look in the code of endpoints.
 3. Run the contract tests and OpenAPI validation automatically in CI for every
    pull request. If an endpoint, request field, response model, or status code
    changes without a matching documentation update, the CI check should fail.
+4. In prod application I would consider using FastAPI framework which generates docs from code.
