@@ -11,7 +11,7 @@ I noticed it as first beacause at the top of the mock_server.py there is a TOKEN
 ## 2. Completed endpoint list
 
 I asked Github Copilot for creating complete endpoint application endpoints. 
-Then, I verified each route with `curl` and recorded the results in the table below. 
+Then, I verified each route with `curl`, searched in the codebase for route and recorded the results in the table below. 
 I also went through the mock_server.py to take a look in the code of endpoints.
 
 | `POST` | `/styles/` | `201 Created`, creates a style |
