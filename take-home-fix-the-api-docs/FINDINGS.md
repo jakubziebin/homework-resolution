@@ -24,6 +24,7 @@ I also went through the mock_server.py to take a look in the code of endpoints.
 | `POST` | `/global_search/` | `200 OK`, returns grouped search results |
 
 Then I compared my draft table with documentation of the API and I started noticing differences.
+I also noticed that documentation does not include response models, so I added them.
 ## 3. Application versus draft documentation
 
 * Documentation said that no authentication header was required, but the server requires a bearer token for every request.
